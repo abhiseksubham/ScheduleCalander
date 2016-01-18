@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Calendar - Schedule</title>
+	
+	<script src="script.js"></script>
+	<link rel="Stylesheet" href="styles.css" type="text/css" />
+	<link rel="Stylesheet" href="bootstrap.min.css" type="text/css" />
+	<link rel="Stylesheet" href="bootstrap.css" type="text/css" />
+	 
+	<div class="page-header vhead border margin vCenter">
+    <h3>Your Calendar <small >This is your schedule for today!</small></h3>
+    </div>
+	
+</head>
+<body onload="createInterval();">
+	<div class="maincontainer">
+		<div id="label" class="labels table-bordered"></div>
+		<div class="calenderContainer">
+			<table id="calenderContainer" class = "table table-bordered"></table>
+		</div>
+		<div id="messages">
+			<br>
+			Schedule
+			<br></br>
+			<table id="msgTable" class= 'table table-bordered'>
+			<thead><td>Description</td><td>Starts At</td><td>Ends At</td></thead>
+			</table>
+			<!-- table id="CDR" class= 'table table-bordered'>
+    <thead>
+        <tr>
+            <th>Caller</th>
+            <th>Callee</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr><td>Num1</td><td>Num2</td><td>Success</td></tr>
+        <tr><td>Num2</td><td>Num3</td><td>Failed</td></tr>
+        <tr><td>Num1</td><td>Num2</td><td>Failed</td></tr>
+        <tr><td>Num2</td><td>Num1</td><td>Failed</td></tr>
+    </tbody>
+</table> -->
+		</div>
+	</div>
+</body>
+</html>
